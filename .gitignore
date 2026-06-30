@@ -1,0 +1,11 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Local env files (in case anyone adds example credentials while testing snippets)
+.env
+.env.local
