@@ -58,9 +58,9 @@ GET /api/v1/usage?api_key=ss_live_your_key_here
 
 | Plan | Monthly API calls | Notes |
 |---|---|---|
-| Professional | 500 | Resets on the 1st of each month |
-| Agency | 2,000 | Resets on the 1st of each month |
-| Enterprise | Unlimited | — |
+| Mid | 0 | Resets on the 1st of each month |
+| Pro | 100 | Resets on the 1st of each month |
+| Agency | 500 | — |
 
 When you exceed your limit the API returns `HTTP 429` with a `resets_at` field in the response meta. This is a monthly call-count ceiling, not a per-second/per-minute rate limiter — there is no request-frequency throttling.
 
