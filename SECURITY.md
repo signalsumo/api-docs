@@ -4,7 +4,7 @@
 
 If you discover a security vulnerability in the SignalSumo API, please report it privately rather than opening a public issue.
 
-Email **security@signalsumo.com** with:
+Email **support@signalsumo.com** with:
 
 - A description of the vulnerability and its potential impact
 - Steps to reproduce (proof-of-concept code or requests, if applicable)
